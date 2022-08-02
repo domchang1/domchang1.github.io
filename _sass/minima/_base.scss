@@ -55,8 +55,8 @@ main {
  * Images
  */
 img {
-  width:176px;
-  height:235px;
+  width:200px;
+  height:auto;
   vertical-align: middle;
 }
 
@@ -210,8 +210,6 @@ pre {
  */
 
 .svg-icon {
-    width: 100px;
-    height: 100px;
     display: inline-block;
     fill: #{$grey-color};
     padding-right: 5px;
