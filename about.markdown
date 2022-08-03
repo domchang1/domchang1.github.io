@@ -5,7 +5,9 @@ permalink: /about/
 ---
 <div style="justify-content:center;display:flex;padding:10px;">
     <img src="../assets/dominic.jpg" style="align-self:center">
-    <h4 style="margin:50px">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch, Scikit Learn, Matplotlib, and Pandas. Besides these, I have also dabbled in Web Development with HTML, CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, I like to read books, watch shows, and play with my dog Bandit.</h4>
+    <div class="about-box">
+        <h4 style="margin:25px">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch, Scikit Learn, Matplotlib, and Pandas. Besides these, I have also dabbled in Web Development with HTML, CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, I like to read books, watch shows, and play with my dog Bandit.</h4>
+    </div>
 </div>
 <h1 class="post-title">My Social Media:</h1>
 <div style="padding:10px">

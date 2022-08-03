@@ -3,13 +3,20 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+  <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-  <img src="../assets/dominic.jpg">
-  {%- include social.html -%}
+  {%- endif -%} -->
+  <div>
+    <h1 class="page-heading">Welcome to My Website!</h1>
+    <div style="margin-top:100px">
+      <h1 class="page-heading">My Recent Works:</h1>
+      <ul style="list-style-type: circle;">
+        <li>My Work with the Horizon Research Program on Computer Vision</li>
+        <li>My Research with the UIUC Professor Han Zhao</li>
+      </ul>
+  </div>
+  </div>
+ 
   <!-- {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Dominic Chang" }}</h2>
    

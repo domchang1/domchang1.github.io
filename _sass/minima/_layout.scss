@@ -257,4 +257,20 @@
       @include relative-font-size(1.125);
     }
   }
+
+  .about-box{
+    background-color: lightcyan;
+    border-color: gray;
+    border-radius: 30px;
+    box-shadow: 5px 5px lightgray;
+    margin: 30px;
+    animation: fadeIn 3s;
+  }
+  @keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  
+  
 }
