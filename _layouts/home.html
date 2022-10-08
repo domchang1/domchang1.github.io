@@ -8,6 +8,19 @@ layout: default
   {%- endif -%} -->
   <div>
     <h1 class="page-heading">Welcome to My Website!</h1>
+    <div style="justify-content:center;display:flex;padding:10px;">
+      <img src="../assets/dominic.jpg" style="align-self:center">
+      <div class="about-box">
+          <h4 style="margin:25px">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch, Scikit Learn, Matplotlib, Numpy, and Pandas. Besides these, I have also dabbled in Web Development with HTML, CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, I like to read books, watch shows, play games, and play with my dog Bandit.</h4>
+      </div>
+  </div>
+  <div style="margin-top:100px">
+    <h1 class="post-title">My Social Media:</h1>
+  </div>
+  <div style="padding:10px">
+      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use> </svg></a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+  </div>
     <div style="margin-top:100px">
       <h1 class="page-heading">My Recent Works:</h1>
       <ul style="list-style-type: circle;">
