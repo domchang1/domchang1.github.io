@@ -11,23 +11,39 @@ layout: default
     <div style="justify-content:center;display:flex;padding:10px;">
       <img src="../assets/dominic.jpg" style="align-self:center">
       <div class="about-box">
-          <h4 style="margin:25px">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch, Scikit Learn, Matplotlib, Numpy, and Pandas. Besides these, I have also dabbled in Web Development with HTML, CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, I like to read books, watch shows, play games, and play with my dog Bandit.</h4>
+          <p style="font-size:1vw;margin-left:25px">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch, Scikit Learn, Matplotlib, Numpy, and Pandas. Besides these, I have also dabbled in Web Development with HTML, CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, I like to read books, watch shows, play games, and play with my dog Bandit.</p>
       </div>
+    </div>
   </div>
-  <div style="margin-top:100px">
+  <div style="margin-top:75px">
     <h1 class="post-title">My Social Media:</h1>
   </div>
   <div style="padding:10px">
       <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use> </svg></a>
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
   </div>
-    <div style="margin-top:100px">
-      <h1 class="page-heading">My Recent Works:</h1>
-      <ul style="list-style-type: circle;">
-        <li>My Work with the Horizon Research Program on Computer Vision</li>
-        <li>My Research with the UIUC Professor Han Zhao</li>
+    <div style="margin-top:75px">
+      <h1 class="page-heading">My Recent Work:</h1>
+      <ul>
+        <li>Musical Emotional Analysis Project with the UIUC Professor Han Zhao 
+          <ul style="list-style-type: circle;">
+            <li><a href="https://github.com/domchang1/Musical-Emotional-Analysis">GitHub Repository</a></li>
+          </ul>
+        </li>
+        <li>Project with the Horizon Research Program and CalTech PhD student on Computer Vision
+          <ul style="list-style-type: circle;">
+            <li><a href="https://github.com/domchang1/Horizon-Machine-Learning-Project">GitHub Repository</a></li>
+            <li><a href="../assets/Horizon_Paper.pdf">My Paper</a></li>
+          </ul>
+        </li>
+        <li>Work With Aspiring Scholars Directed Research Program (ASDRP)
+          <ul style="list-style-type: circle;">
+            <li><a href="https://github.com/domchang1/LEAF-Project">LEAF project</a></li>
+            <li><a href="https://github.com/domchang1/Text-Classification">Sentiment Analysis Project</a></li>
+          </ul>
+        </li>
       </ul>
-  </div>
+    </div>
   </div>
  
   <!-- {%- if site.posts.size > 0 -%}
