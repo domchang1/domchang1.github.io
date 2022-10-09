@@ -1,33 +1,53 @@
 ---
 layout: default
 ---
-
-<div class="home">
+<style>
+  .about-box{
+    padding:20px;
+    border-color: gray;
+    border-radius: 30px;
+    box-shadow: 5px 5px lightgray;
+    width:400px;
+    overflow:hidden;
+    display:inline-block;
+  }
+  a, a:link, a:visited{
+    color:#f67709
+  }
+</style>
+<div class="home" style="overflow: auto;">
   <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} -->
   <div>
-    <h1 class="page-heading">Welcome to My Website!</h1>
-    <div style="justify-content:center;display:flex;padding:10px;">
-      <img src="../assets/dominic.jpg" style="align-self:center">
+    <h1 class="post-title">Welcome to My Website!</h1>
+    <div style="justify-content:left;display:inline-flex;padding:10px;">
+      <img src="../assets/dominic.jpg" style="align-self:center;display:inline-block;">
       <div class="about-box">
-          <p style="font-size:1vw;margin-left:25px">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch, Scikit Learn, Matplotlib, Numpy, and Pandas. Besides these, I have also dabbled in Web Development with HTML, CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, I like to read books, watch shows, play games, and play with my dog Bandit.</p>
+        <!-- font-size:2.25vmin; -->
+          <p style="white-space:normal">Hi! My name is Dominic Chang and I'm a senior at Los Altos High School. 
+            I love coding and especially Machine Learning. I am fluent in Python and Java and have experience with PyTorch,
+             Scikit Learn, Matplotlib, Numpy, and Pandas. Besides these, I have also dabbled in Web Development with HTML,
+              CSS, and JavaScript, as well as Mobile App Development with React Native. My hobbies include swimming
+               competitively for Palo Alto Stanford Aquatics and playing the piano. Outside of academics, 
+               I like to read books, watch shows, play games, and play with my dog Bandit.</p>
       </div>
     </div>
   </div>
-  <div style="margin-top:75px">
+  <div style="margin-top:65px">
     <h1 class="post-title">My Social Media:</h1>
   </div>
   <div style="padding:10px">
       <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use> </svg></a>
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
   </div>
-    <div style="margin-top:75px">
-      <h1 class="page-heading">My Recent Work:</h1>
+    <div style="margin-top:50px">
+      <h1 class="post-title">My Recent Work:</h1>
       <ul>
         <li>Musical Emotional Analysis Project with the UIUC Professor Han Zhao 
           <ul style="list-style-type: circle;">
             <li><a href="https://github.com/domchang1/Musical-Emotional-Analysis">GitHub Repository</a></li>
+            <li>Paper: Coming Soon</li>
           </ul>
         </li>
         <li>Project with the Horizon Research Program and CalTech PhD student on Computer Vision
@@ -40,6 +60,11 @@ layout: default
           <ul style="list-style-type: circle;">
             <li><a href="https://github.com/domchang1/LEAF-Project">LEAF project</a></li>
             <li><a href="https://github.com/domchang1/Text-Classification">Sentiment Analysis Project</a></li>
+          </ul>
+        </li>
+        <li>This Website (Built with GitHub Pages)
+          <ul style="list-style-type: circle;">
+            <li><a href="https://github.com/domchang1/domchang1.github.io">GitHub Repository</a></li>
           </ul>
         </li>
       </ul>
