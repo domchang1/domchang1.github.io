@@ -15,13 +15,20 @@ layout: default
   a, a:link, a:visited{
     color:#f67709
   }
+  img{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 14em;
+    height: auto;
+  }
 </style>
 <div class="home" style="overflow: auto;">
   <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} -->
   <div>
-    <h1 class="post-title">Welcome to My Website!</h1>
+    <h1>Welcome to My Website!</h1>
     <div style="justify-content:left;display:inline-flex;padding:10px;">
       <img src="../assets/me.jpg" style="align-self:center;display:inline-block;">
       <div class="about-box">
@@ -37,15 +44,15 @@ layout: default
     </div>
   </div>
     <div style="margin-top:50px">
-      <h1 class="post-title">My Recent Work:</h1>
+      <h1>My Recent Work:</h1>
       <ul>
-        <li>Musical Emotional Analysis Project with the UIUC Professor <a href="https://hanzhaoml.github.io/">Han Zhao</a>
+        <li>Musical Emotion Recognition Project with the UIUC Professor <a href="https://hanzhaoml.github.io/">Han Zhao</a>
           <ul style="list-style-type: circle;">
             <li><a href="https://github.com/domchang1/Musical-Emotional-Analysis">GitHub Repository</a></li>
             <li>Paper: Coming Soon</li>
           </ul>
         </li>
-        <li>Project with the <a href="https://www.horizoninspires.com/">Horizon Research Program</a> and CalTech researcher on Computer Vision
+        <li>Computer Vision Project with <a href="https://www.horizoninspires.com/">Horizon Academic Research Program</a> and a Caltech researcher
           <ul style="list-style-type: circle;">
             <li><a href="../assets/Horizon_Paper.pdf">A Comparison of Classification and Regression Methods in the Diagnosis of Diabetic Retinopathy</a></li>
             <li><a href="https://github.com/domchang1/Horizon-Machine-Learning-Project">GitHub Repository</a></li>
@@ -65,7 +72,7 @@ layout: default
       </ul>
     </div>
     <div style="margin-top:65px">
-      <h1 class="post-title">My Social Media:</h1>
+      <h1>My Social Media:</h1>
     </div>
     <div style="padding:10px">
         <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon" width="100px" height="100px" viewBox="0 0 20 20"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use> </svg></a>
